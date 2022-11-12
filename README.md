@@ -9,3 +9,6 @@ A simple **currency converter** made during *Javascript* learning. It's usage is
 - Dollars
 - Euro
 - Pounds
+
+## Demo:
+https://rutlawski.github.io/currency-converter/
