@@ -18,17 +18,18 @@
 
 <body class="body">
     <header>
-        <h1 class="body__header">Currency Converter</h1>
+        <h1 class="header">Currency Converter</h1>
     </header>
-    <div>
+    <section>
         <form class="js-form">
-            <fieldset class="fieldset">
-                <legend class="fieldset__legend">Oblicz pieniądze!</legend>
+            <fieldset class="section__fieldset">
+                <legend class="section__legend">Oblicz pieniądze!</legend>
                 <p>
-                    <label>Wartość w zł*:<br><input class="js-ammount" placeholder="Wpisz kwotę w zł" type="number" required min="1" step="1"></label>
+                    <label>Wartość w zł*:<br><input class="js-ammount" placeholder="Wpisz kwotę w zł" type="number"
+                            required min="1" step="1"></label>
                 </p>
                 <p>
-                    <button type="reset" class="js-fieldset__button">Wyczyść!</button>
+                    <button type="reset" class="fieldset__button js-fieldset__button">Wyczyść!</button>
                     <button type="submit" class="fieldset__button">Przelicz!</button>
                 </p>
                 <ul class="fieldset__list">
@@ -48,12 +49,12 @@
                         </label>
                     </li>
                 </ul>
-   
-        <p>Wynik:<strong class="js-result"> 0</strong></p>
-        </fieldset>
-    </form>
-</div>
-<footer class="footer">(c) Copyright 2022 by Marek Ostrowski</footer>
+
+                <p>Wynik:<strong class="js-result"> 0</strong></p>
+            </fieldset>
+        </form>
+    </section>
+    <footer class="footer">(c) Copyright 2022 by Marek Ostrowski</footer>
 </body>
 
 </html>

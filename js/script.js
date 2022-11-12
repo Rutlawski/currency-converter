@@ -12,7 +12,7 @@
 
     const onClickReset = () => {
         const resultElement = document.querySelector(".js-result");
-        result = ("0");
+        result = (" 0");
         resultElement.innerText = result;
     }
 

@@ -5,7 +5,7 @@
     background-size: cover;
 }
 
-.body__header {
+.header {
     text-align: center;
     border: 3px inset black;
     margin: 20px;
@@ -13,35 +13,19 @@
     border-radius: 6px;
 }
 
-.fieldset {
+.section__fieldset {
     margin: 20px;
     border-radius: 6px;
     background-color: aliceblue;
 }
 
-.fieldset__legend {
+.section__legend {
     border: 3px inset black;
     padding: 10px;
     border-radius: 6px;
     font-weight: bold;
     background-color: aliceblue;
     color: black
-}
-
-.js-fieldset__button {
-    border: 2px solid black;
-    background-color: rgb(255, 249, 243);
-    border-radius: 6px;
-}
-
-.js-fieldset__button:hover {
-    cursor: pointer;
-    background-color: rgb(243, 224, 224);
-}
-
-.js-fieldset__button:active {
-    cursor: pointer;
-    background-color: rgb(240, 197, 197);
 }
 
 .fieldset__button {
