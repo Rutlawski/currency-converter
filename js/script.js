@@ -23,6 +23,7 @@
         const poundElement = document.querySelector(".js-pound");
         const resultElement = document.querySelector(".js-result");
         const ammountElement = document.querySelector(".js-ammount");
+        resultElement.innerText = result;
         if (dollarElement.checked === true) {
             const dollarElement = 0.21;
             result = (ammountElement.value * dollarElement);
@@ -35,7 +36,6 @@
             const poundElement = 0.18;
             result = (ammountElement.value * poundElement);
         }
-        resultElement.innerText = result;
     }
 
     Przywitanie();
