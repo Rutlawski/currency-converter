@@ -13,7 +13,7 @@ The values have been lifted from [Google](https://www.google.com/search?q=przeli
 and at the time of creating this show values of:
 
 ```const dollarElement = 0.21;```
-```const euroElement = 0.21;```
+```const euroElement = 0.22;```
 ```const poundElement = 0.18;```
 
 **Happy converting!**
@@ -35,7 +35,7 @@ Wartości zostały wzięte z [Google](https://www.google.com/search?q=przeliczni
 i na czas tworzenia projektu wynosiły:
 
 ```const dollarElement = 0.21;```
-```const euroElement = 0.21;```
+```const euroElement = 0.22;```
 ```const poundElement = 0.18;```
 
 **Miłego liczenia!**
