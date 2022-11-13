@@ -16,7 +16,7 @@ and at the time of creating this show values of:
 ```const euroElement = 0.21;```
 ```const poundElement = 0.18;```
 
-**Happy coverting!**
+**Happy converting!**
 
 /
 
