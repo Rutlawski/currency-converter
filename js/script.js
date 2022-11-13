@@ -13,6 +13,7 @@
         const dollarElement = document.querySelector(".js-dollar");
         const euroElement = document.querySelector(".js-euro");
         const poundElement = document.querySelector(".js-pound");
+        const resultElement = document.querySelector(".js-result");
 
         if (dollarElement.checked === true) {
             return 0.21;
@@ -23,6 +24,9 @@
         else if (poundElement.checked === true) {
             return 0.18;
         }
+
+
+
     }
 
     const onSubmitElement = (event) => {
@@ -31,9 +35,14 @@
         const ammountElement = document.querySelector(".js-ammount")
         const rate = getRate();
 
-        resultElement.innerText = (+ammountElement.value * rate);
-    }
+        if (rate > 0) {
 
+            resultElement.innerText = (+ammountElement.value * rate);
+        }
+        else {
+            resultElement.innerText = (" Wybierz walutę.");
+        }
+    }
 
     const Init = () => {
         const formElement = document.querySelector(".js-form");
