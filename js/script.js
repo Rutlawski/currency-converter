@@ -23,11 +23,8 @@
         }
         else if (poundElement.checked === true) {
             return 0.18;
-        }
-
-
-
-    }
+        }}
+    
 
     const onSubmitElement = (event) => {
         event.preventDefault();
@@ -36,13 +33,12 @@
         const rate = getRate();
 
         if (rate > 0) {
-
             resultElement.innerText = (+ammountElement.value * rate);
         }
         else {
             resultElement.innerText = (" Wybierz walutę.");
-        }
-    }
+        }}
+    
 
     const Init = () => {
         const formElement = document.querySelector(".js-form");
