@@ -17,7 +17,10 @@ and at the time of creating this show values of:
 ```const poundElement = 0.18;```
 
 **Happy coverting!**
+
 /
+
+# currency-converter
 
 Prosty **kalkulator walut**, który zrobiłem podczas kursu *Javascript*. Kalkulator ma za zadanie przeliczać złotówki na
 - Dollary
